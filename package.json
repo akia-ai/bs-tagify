@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "clean": "bsb -clean-world", 
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "devDependencies": { 
+    "bs-platform": "^5.2.1"
+  },
+  "files": [   
+    "src/tagify.re", 
+    "bsconfig.json"
+  ],
+  "peerDependencies": {
+    "@yaireo/tagify": "^4.2.0"
+  }
+}

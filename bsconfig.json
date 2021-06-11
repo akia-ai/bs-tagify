@@ -1,0 +1,25 @@
+{
+  "name": "@akia-ai/bs-tagify",
+  "version": "4.2.0",
+  "sources": [
+    {
+      "dir" : "src",
+      "subdirs" : true
+    },
+    {
+      "dir": "__tests__",
+      "type": "dev"
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
