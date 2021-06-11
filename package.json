@@ -1,5 +1,6 @@
 {
   "name": "@akia-ai/bs-tagify",
+  "version": "4.2.0",
   "scripts": {
     "clean": "bsb -clean-world", 
     "build": "bsb -make-world",
